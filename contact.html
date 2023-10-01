@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Task 1</title>    
+    <title>Contact Personal</title>    
     <link href="style/style.css" rel="stylesheet">
   </head>
 
@@ -14,7 +14,7 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="blog-detail.html">Blog</a>
           </li>
         </ul>
       </div>
@@ -44,9 +44,9 @@
       <div>
         <label for="subject">Subject</label>
         <select id="subject">
-          <option>Frontend Developer</option>
-          <option>Backend Developer</option>
-          <option>Fullstack Developer</option>
+          <option value="Frontend Developer">Frontend Developer</option>
+          <option value="Backend Developer">Backend Developer</option>
+          <option value="Fullstack Developer">Fullstack Developer</option>
         </select>
       </div>
 
@@ -56,8 +56,9 @@
       </div>
 
       <div>
-        <button>Submit</button>
+        <button type="button" onclick="getData()">Submit</button>
       </div>
     </form>
   </body>
+  <script src="style/js/contact.js"></script>
 </html>
